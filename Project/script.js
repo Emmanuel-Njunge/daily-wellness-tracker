@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         quoteDisplay.textContent = `"${data.content}" - ${data.author}`;
       })
       .catch(() => {
-        quoteDisplay.textContent = "Unable to fetch quote, please try again.";
+        quoteDisplay.textContent = "Unable to load quote, please try again.";
       });
   }
 
