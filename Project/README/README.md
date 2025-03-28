@@ -32,5 +32,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 
 ---
 
-### **Example README**
-Once you've added these sections, your README will look polished and professional. Let me know if you want help drafting any part! 🚀✨
+

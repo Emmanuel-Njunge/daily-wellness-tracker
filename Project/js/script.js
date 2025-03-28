@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const quoteDisplay = document.querySelector("quote");
+  const quoteDisplay = document.getElementById("quote");
   const moodSelect = document.getElementById("mood");
   const journalInput = document.getElementById("journal");
   const logList = document.getElementById("dailyLogs");

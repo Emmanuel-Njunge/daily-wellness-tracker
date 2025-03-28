@@ -7,15 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Emmanuel Njung'e Ngugi" />
     <title>Daily Welness Tracker | Welcome</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
-<!--Main code-->
   <body>
     <header>
       <div class="container">
         <h1>Daily Wellness Tracker</h1>
         <p>Your personal companion for mental wellness and clarity</p>
-        <button id="button-1" aria-label="Get a motivational quote">Get Motivational Quote</button>
+        <button id="button-1">Get Motivational Quote</button>
         <p id="quote">Motivational Quote</p>
       </div>
     </header>
@@ -56,9 +55,14 @@
         <h2>Sign Up</h2>
         <form id="addUserForm">
           <label for="username">Username:</label>
-          <input type="text" id="username" placeholder="Enter your username" required />
+          <input
+            type="text"
+            id="username"
+            placeholder="Enter username"
+            required
+          />
           <label for="email">Email:</label>
-          <input type="email" id="email" placeholder="Enter your email" required />
+          <input type="email" id="email" placeholder="Enter email" required />
           <button type="submit">Sign Up</button>
         </form>
       </div>
@@ -70,19 +74,24 @@
           <div id="messages"></div>
         </div>
         <form id="chatForm">
-          <input type="text" id="userMessage" placeholder="Type your message..." required />
+          <input
+            type="text"
+            id="userMessage"
+            placeholder="Type your message..."
+            required
+          />
           <button type="submit">Send</button>
         </form>
       </div>
     </section>
-    
+
     <section>
       <div class="container">
         <h2>User List</h2>
         <ul id="userList"></ul>
       </div>
     </section>
-    
+
     <footer>
       <p>Daily Wellness Tracker, copyright &copy; 2025</p>
     </footer>
