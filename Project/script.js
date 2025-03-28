@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", () => {
         quoteDisplay.textContent = `"${data.content}" - ${data.author}`;
       })
       .catch(() => {
-        quoteDisplay.textContent = "Unable to load quote, please try again.";
+        quoteDisplay.textContent = "Unable to fetch quote, please try again.";
       });
   }
 
@@ -79,7 +79,6 @@ document.addEventListener("DOMContentLoaded", () => {
     event.preventDefault();
     const username = document.getElementById("username").value.trim();
     const email = document.getElementById("email").value.trim();
-    //check if field is empty
     if (username && email) {
       addUserToList(username, email);
       alert("User added successfully!");
