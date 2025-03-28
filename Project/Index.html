@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Daily Wellness Tracker" />
+    <meta name="keywords" content="Wellness tracker, Mental health tracker " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Emmanuel Njung'e Ngugi" />
+    <title>Daily Welness Tracker | Welcome</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Daily Wellness Tracker</h1>
+        <button id="button-1">Get Motivational Quote</button>
+        <p id="quote">Motivational Quote</p>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Log Your Mood</h2>
+        <select id="mood">
+          <option value="" disabled selected>Select your mood</option>
+          <option value="Happy">😊 Happy</option>
+          <option value="Stressed">😟 Stressed</option>
+          <option value="Sad">😢 Sad</option>
+          <option value="Anxious">😰 Anxious</option>
+          <option value="Neutral">😐 Neutral</option>
+        </select>
+        <button id="inputMood">Save Mood</button>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <h2>Write a Journal</h2>
+        <textarea
+          id="journal"
+          placeholder="How have you been Today?"
+        ></textarea>
+        <button id="inputJournal">Save Journal</button>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>Your Daily Wellness Logs</h2>
+        <ul id="dailyLogs"></ul>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <h2>Sign Up</h2>
+        <form id="addUserForm">
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Enter username" required />
+          <label for="email">Email:</label>
+          <input type="email" id="email" placeholder="Enter email" required />
+          <button type="submit">Sign Up</button>
+        </form>
+      </div>
+    </section>
+    <section id="chatbot">
+      <div class="container">
+        <h2>Chat with Wellness Bot</h2>
+        <div id="chatWindow">
+          <div id="messages"></div>
+        </div>
+        <form id="chatForm">
+          <input type="text" id="userMessage" placeholder="Type your message..." required />
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+    
+    <section>
+      <div class="container">
+        <h2>User List</h2>
+        <ul id="userList"></ul>
+      </div>
+    </section>
+    
+    <footer>
+      <p>Daily Wellness Tracker, copyright &copy; 2025</p>
+    </footer>
+  </body>
+  <script src="./js/script.js"></script>
+</html>

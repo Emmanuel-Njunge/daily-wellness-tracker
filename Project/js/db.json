@@ -1,0 +1,17 @@
+{
+  "wellnessLogs": [
+    {
+      "id": "1",
+      "mood": "Happy",
+      "activity": "Exercise",
+      "journalEntry": "Had a great workout session!"
+    },
+    {
+      "id": "2",
+      "mood": "Stressed",
+      "activity": "Meditation",
+      "journalEntry": "Focused on my breathing—it helped me feel calmer."
+    }
+    
+  ]
+}
